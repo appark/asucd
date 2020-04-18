@@ -1,0 +1,2707 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    ASUCD Divi Child Theme
+ Author:         Creative Media
+ Author URI:     https://creativemedia.ucdavis.edu
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: normal;
+}
+
+.shape_1_before:before {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-1.svg") no-repeat;
+}
+.shape_1_before.align_left_before:before {
+  left: 0vh;
+}
+.shape_1_before.align_right_before:before {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_1_before.color_asucd_before:before {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_1_before.color_advocacy_before:before {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_1_before.color_services_1_before:before {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_1_before.color_services_2_before:before {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_1_before.color_media_1_before:before {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_1_before.color_media_2_before:before {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_1_before.color_social_1_before:before {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_1_before.color_social_2_before:before {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_1_before.move_1_before:before {
+  top: 1vh;
+}
+.shape_1_before.move_2_before:before {
+  top: 2vh;
+}
+.shape_1_before.move_3_before:before {
+  top: 3vh;
+}
+.shape_1_before.move_4_before:before {
+  top: 4vh;
+}
+.shape_1_before.move_5_before:before {
+  top: 5vh;
+}
+.shape_1_before.move_6_before:before {
+  top: 6vh;
+}
+.shape_1_before.move_7_before:before {
+  top: 7vh;
+}
+.shape_1_before.move_8_before:before {
+  top: 8vh;
+}
+.shape_1_before.move_9_before:before {
+  top: 9vh;
+}
+.shape_1_before.move_10_before:before {
+  top: 10vh;
+}
+.shape_1_before.move_11_before:before {
+  top: 11vh;
+}
+.shape_1_before.move_12_before:before {
+  top: 12vh;
+}
+.shape_1_before.move_13_before:before {
+  top: 13vh;
+}
+.shape_1_before.move_14_before:before {
+  top: 14vh;
+}
+.shape_1_before.move_15_before:before {
+  top: 15vh;
+}
+.shape_1_before.move_16_before:before {
+  top: 16vh;
+}
+.shape_1_before.move_17_before:before {
+  top: 17vh;
+}
+.shape_1_before.move_18_before:before {
+  top: 18vh;
+}
+.shape_1_before.move_19_before:before {
+  top: 19vh;
+}
+.shape_1_before.move_20_before:before {
+  top: 20vh;
+}
+.shape_1_before.move_21_before:before {
+  top: 21vh;
+}
+.shape_1_before.move_22_before:before {
+  top: 22vh;
+}
+.shape_1_before.move_23_before:before {
+  top: 23vh;
+}
+.shape_1_before.move_24_before:before {
+  top: 24vh;
+}
+.shape_1_before.move_25_before:before {
+  top: 25vh;
+}
+.shape_1_before.move_26_before:before {
+  top: 26vh;
+}
+.shape_1_before.move_27_before:before {
+  top: 27vh;
+}
+.shape_1_before.move_28_before:before {
+  top: 28vh;
+}
+.shape_1_before.move_29_before:before {
+  top: 29vh;
+}
+.shape_1_before.move_30_before:before {
+  top: 30vh;
+}
+.shape_1_before.move_31_before:before {
+  top: 31vh;
+}
+.shape_1_before.move_32_before:before {
+  top: 32vh;
+}
+.shape_1_before.move_33_before:before {
+  top: 33vh;
+}
+.shape_1_before.move_34_before:before {
+  top: 34vh;
+}
+.shape_1_before.move_35_before:before {
+  top: 35vh;
+}
+.shape_1_before.move_36_before:before {
+  top: 36vh;
+}
+.shape_1_before.move_37_before:before {
+  top: 37vh;
+}
+.shape_1_before.move_38_before:before {
+  top: 38vh;
+}
+.shape_1_before.move_39_before:before {
+  top: 39vh;
+}
+.shape_1_before.move_40_before:before {
+  top: 40vh;
+}
+.shape_1_before.move_41_before:before {
+  top: 41vh;
+}
+.shape_1_before.move_42_before:before {
+  top: 42vh;
+}
+.shape_1_before.move_43_before:before {
+  top: 43vh;
+}
+.shape_1_before.move_44_before:before {
+  top: 44vh;
+}
+.shape_1_before.move_45_before:before {
+  top: 45vh;
+}
+.shape_1_before.move_46_before:before {
+  top: 46vh;
+}
+.shape_1_before.move_47_before:before {
+  top: 47vh;
+}
+.shape_1_before.move_48_before:before {
+  top: 48vh;
+}
+.shape_1_before.move_49_before:before {
+  top: 49vh;
+}
+.shape_1_before.move_50_before:before {
+  top: 50vh;
+}
+.shape_1_before.move_51_before:before {
+  top: 51vh;
+}
+.shape_1_before.move_52_before:before {
+  top: 52vh;
+}
+.shape_1_before.move_53_before:before {
+  top: 53vh;
+}
+.shape_1_before.move_54_before:before {
+  top: 54vh;
+}
+.shape_1_before.move_55_before:before {
+  top: 55vh;
+}
+.shape_1_before.move_56_before:before {
+  top: 56vh;
+}
+.shape_1_before.move_57_before:before {
+  top: 57vh;
+}
+.shape_1_before.move_58_before:before {
+  top: 58vh;
+}
+.shape_1_before.move_59_before:before {
+  top: 59vh;
+}
+.shape_1_before.move_60_before:before {
+  top: 60vh;
+}
+.shape_1_before.move_61_before:before {
+  top: 61vh;
+}
+.shape_1_before.move_62_before:before {
+  top: 62vh;
+}
+.shape_1_before.move_63_before:before {
+  top: 63vh;
+}
+.shape_1_before.move_64_before:before {
+  top: 64vh;
+}
+.shape_1_before.move_65_before:before {
+  top: 65vh;
+}
+.shape_1_before.move_66_before:before {
+  top: 66vh;
+}
+.shape_1_before.move_67_before:before {
+  top: 67vh;
+}
+.shape_1_before.move_68_before:before {
+  top: 68vh;
+}
+.shape_1_before.move_69_before:before {
+  top: 69vh;
+}
+.shape_1_before.move_70_before:before {
+  top: 70vh;
+}
+.shape_1_before.move_71_before:before {
+  top: 71vh;
+}
+.shape_1_before.move_72_before:before {
+  top: 72vh;
+}
+.shape_1_before.move_73_before:before {
+  top: 73vh;
+}
+.shape_1_before.move_74_before:before {
+  top: 74vh;
+}
+.shape_1_before.move_75_before:before {
+  top: 75vh;
+}
+.shape_1_before.move_76_before:before {
+  top: 76vh;
+}
+.shape_1_before.move_77_before:before {
+  top: 77vh;
+}
+.shape_1_before.move_78_before:before {
+  top: 78vh;
+}
+.shape_1_before.move_79_before:before {
+  top: 79vh;
+}
+.shape_1_before.move_80_before:before {
+  top: 80vh;
+}
+.shape_1_before.move_81_before:before {
+  top: 81vh;
+}
+.shape_1_before.move_82_before:before {
+  top: 82vh;
+}
+.shape_1_before.move_83_before:before {
+  top: 83vh;
+}
+.shape_1_before.move_84_before:before {
+  top: 84vh;
+}
+.shape_1_before.move_85_before:before {
+  top: 85vh;
+}
+.shape_1_before.move_86_before:before {
+  top: 86vh;
+}
+.shape_1_before.move_87_before:before {
+  top: 87vh;
+}
+.shape_1_before.move_88_before:before {
+  top: 88vh;
+}
+.shape_1_before.move_89_before:before {
+  top: 89vh;
+}
+.shape_1_before.move_90_before:before {
+  top: 90vh;
+}
+.shape_1_before.move_91_before:before {
+  top: 91vh;
+}
+.shape_1_before.move_92_before:before {
+  top: 92vh;
+}
+.shape_1_before.move_93_before:before {
+  top: 93vh;
+}
+.shape_1_before.move_94_before:before {
+  top: 94vh;
+}
+.shape_1_before.move_95_before:before {
+  top: 95vh;
+}
+.shape_1_before.move_96_before:before {
+  top: 96vh;
+}
+.shape_1_before.move_97_before:before {
+  top: 97vh;
+}
+.shape_1_before.move_98_before:before {
+  top: 98vh;
+}
+.shape_1_before.move_99_before:before {
+  top: 99vh;
+}
+
+.shape_2_before:before {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-2.svg") no-repeat;
+}
+.shape_2_before.align_left_before:before {
+  left: 0vh;
+}
+.shape_2_before.align_right_before:before {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_2_before.color_asucd_before:before {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_2_before.color_advocacy_before:before {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_2_before.color_services_1_before:before {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_2_before.color_services_2_before:before {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_2_before.color_media_1_before:before {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_2_before.color_media_2_before:before {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_2_before.color_social_1_before:before {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_2_before.color_social_2_before:before {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_2_before.move_1_before:before {
+  top: 1vh;
+}
+.shape_2_before.move_2_before:before {
+  top: 2vh;
+}
+.shape_2_before.move_3_before:before {
+  top: 3vh;
+}
+.shape_2_before.move_4_before:before {
+  top: 4vh;
+}
+.shape_2_before.move_5_before:before {
+  top: 5vh;
+}
+.shape_2_before.move_6_before:before {
+  top: 6vh;
+}
+.shape_2_before.move_7_before:before {
+  top: 7vh;
+}
+.shape_2_before.move_8_before:before {
+  top: 8vh;
+}
+.shape_2_before.move_9_before:before {
+  top: 9vh;
+}
+.shape_2_before.move_10_before:before {
+  top: 10vh;
+}
+.shape_2_before.move_11_before:before {
+  top: 11vh;
+}
+.shape_2_before.move_12_before:before {
+  top: 12vh;
+}
+.shape_2_before.move_13_before:before {
+  top: 13vh;
+}
+.shape_2_before.move_14_before:before {
+  top: 14vh;
+}
+.shape_2_before.move_15_before:before {
+  top: 15vh;
+}
+.shape_2_before.move_16_before:before {
+  top: 16vh;
+}
+.shape_2_before.move_17_before:before {
+  top: 17vh;
+}
+.shape_2_before.move_18_before:before {
+  top: 18vh;
+}
+.shape_2_before.move_19_before:before {
+  top: 19vh;
+}
+.shape_2_before.move_20_before:before {
+  top: 20vh;
+}
+.shape_2_before.move_21_before:before {
+  top: 21vh;
+}
+.shape_2_before.move_22_before:before {
+  top: 22vh;
+}
+.shape_2_before.move_23_before:before {
+  top: 23vh;
+}
+.shape_2_before.move_24_before:before {
+  top: 24vh;
+}
+.shape_2_before.move_25_before:before {
+  top: 25vh;
+}
+.shape_2_before.move_26_before:before {
+  top: 26vh;
+}
+.shape_2_before.move_27_before:before {
+  top: 27vh;
+}
+.shape_2_before.move_28_before:before {
+  top: 28vh;
+}
+.shape_2_before.move_29_before:before {
+  top: 29vh;
+}
+.shape_2_before.move_30_before:before {
+  top: 30vh;
+}
+.shape_2_before.move_31_before:before {
+  top: 31vh;
+}
+.shape_2_before.move_32_before:before {
+  top: 32vh;
+}
+.shape_2_before.move_33_before:before {
+  top: 33vh;
+}
+.shape_2_before.move_34_before:before {
+  top: 34vh;
+}
+.shape_2_before.move_35_before:before {
+  top: 35vh;
+}
+.shape_2_before.move_36_before:before {
+  top: 36vh;
+}
+.shape_2_before.move_37_before:before {
+  top: 37vh;
+}
+.shape_2_before.move_38_before:before {
+  top: 38vh;
+}
+.shape_2_before.move_39_before:before {
+  top: 39vh;
+}
+.shape_2_before.move_40_before:before {
+  top: 40vh;
+}
+.shape_2_before.move_41_before:before {
+  top: 41vh;
+}
+.shape_2_before.move_42_before:before {
+  top: 42vh;
+}
+.shape_2_before.move_43_before:before {
+  top: 43vh;
+}
+.shape_2_before.move_44_before:before {
+  top: 44vh;
+}
+.shape_2_before.move_45_before:before {
+  top: 45vh;
+}
+.shape_2_before.move_46_before:before {
+  top: 46vh;
+}
+.shape_2_before.move_47_before:before {
+  top: 47vh;
+}
+.shape_2_before.move_48_before:before {
+  top: 48vh;
+}
+.shape_2_before.move_49_before:before {
+  top: 49vh;
+}
+.shape_2_before.move_50_before:before {
+  top: 50vh;
+}
+.shape_2_before.move_51_before:before {
+  top: 51vh;
+}
+.shape_2_before.move_52_before:before {
+  top: 52vh;
+}
+.shape_2_before.move_53_before:before {
+  top: 53vh;
+}
+.shape_2_before.move_54_before:before {
+  top: 54vh;
+}
+.shape_2_before.move_55_before:before {
+  top: 55vh;
+}
+.shape_2_before.move_56_before:before {
+  top: 56vh;
+}
+.shape_2_before.move_57_before:before {
+  top: 57vh;
+}
+.shape_2_before.move_58_before:before {
+  top: 58vh;
+}
+.shape_2_before.move_59_before:before {
+  top: 59vh;
+}
+.shape_2_before.move_60_before:before {
+  top: 60vh;
+}
+.shape_2_before.move_61_before:before {
+  top: 61vh;
+}
+.shape_2_before.move_62_before:before {
+  top: 62vh;
+}
+.shape_2_before.move_63_before:before {
+  top: 63vh;
+}
+.shape_2_before.move_64_before:before {
+  top: 64vh;
+}
+.shape_2_before.move_65_before:before {
+  top: 65vh;
+}
+.shape_2_before.move_66_before:before {
+  top: 66vh;
+}
+.shape_2_before.move_67_before:before {
+  top: 67vh;
+}
+.shape_2_before.move_68_before:before {
+  top: 68vh;
+}
+.shape_2_before.move_69_before:before {
+  top: 69vh;
+}
+.shape_2_before.move_70_before:before {
+  top: 70vh;
+}
+.shape_2_before.move_71_before:before {
+  top: 71vh;
+}
+.shape_2_before.move_72_before:before {
+  top: 72vh;
+}
+.shape_2_before.move_73_before:before {
+  top: 73vh;
+}
+.shape_2_before.move_74_before:before {
+  top: 74vh;
+}
+.shape_2_before.move_75_before:before {
+  top: 75vh;
+}
+.shape_2_before.move_76_before:before {
+  top: 76vh;
+}
+.shape_2_before.move_77_before:before {
+  top: 77vh;
+}
+.shape_2_before.move_78_before:before {
+  top: 78vh;
+}
+.shape_2_before.move_79_before:before {
+  top: 79vh;
+}
+.shape_2_before.move_80_before:before {
+  top: 80vh;
+}
+.shape_2_before.move_81_before:before {
+  top: 81vh;
+}
+.shape_2_before.move_82_before:before {
+  top: 82vh;
+}
+.shape_2_before.move_83_before:before {
+  top: 83vh;
+}
+.shape_2_before.move_84_before:before {
+  top: 84vh;
+}
+.shape_2_before.move_85_before:before {
+  top: 85vh;
+}
+.shape_2_before.move_86_before:before {
+  top: 86vh;
+}
+.shape_2_before.move_87_before:before {
+  top: 87vh;
+}
+.shape_2_before.move_88_before:before {
+  top: 88vh;
+}
+.shape_2_before.move_89_before:before {
+  top: 89vh;
+}
+.shape_2_before.move_90_before:before {
+  top: 90vh;
+}
+.shape_2_before.move_91_before:before {
+  top: 91vh;
+}
+.shape_2_before.move_92_before:before {
+  top: 92vh;
+}
+.shape_2_before.move_93_before:before {
+  top: 93vh;
+}
+.shape_2_before.move_94_before:before {
+  top: 94vh;
+}
+.shape_2_before.move_95_before:before {
+  top: 95vh;
+}
+.shape_2_before.move_96_before:before {
+  top: 96vh;
+}
+.shape_2_before.move_97_before:before {
+  top: 97vh;
+}
+.shape_2_before.move_98_before:before {
+  top: 98vh;
+}
+.shape_2_before.move_99_before:before {
+  top: 99vh;
+}
+
+.shape_3_before:before {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-3.svg") no-repeat;
+}
+.shape_3_before.align_left_before:before {
+  left: 0vh;
+}
+.shape_3_before.align_right_before:before {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_3_before.color_asucd_before:before {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_3_before.color_advocacy_before:before {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_3_before.color_services_1_before:before {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_3_before.color_services_2_before:before {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_3_before.color_media_1_before:before {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_3_before.color_media_2_before:before {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_3_before.color_social_1_before:before {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_3_before.color_social_2_before:before {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_3_before.move_1_before:before {
+  top: 1vh;
+}
+.shape_3_before.move_2_before:before {
+  top: 2vh;
+}
+.shape_3_before.move_3_before:before {
+  top: 3vh;
+}
+.shape_3_before.move_4_before:before {
+  top: 4vh;
+}
+.shape_3_before.move_5_before:before {
+  top: 5vh;
+}
+.shape_3_before.move_6_before:before {
+  top: 6vh;
+}
+.shape_3_before.move_7_before:before {
+  top: 7vh;
+}
+.shape_3_before.move_8_before:before {
+  top: 8vh;
+}
+.shape_3_before.move_9_before:before {
+  top: 9vh;
+}
+.shape_3_before.move_10_before:before {
+  top: 10vh;
+}
+.shape_3_before.move_11_before:before {
+  top: 11vh;
+}
+.shape_3_before.move_12_before:before {
+  top: 12vh;
+}
+.shape_3_before.move_13_before:before {
+  top: 13vh;
+}
+.shape_3_before.move_14_before:before {
+  top: 14vh;
+}
+.shape_3_before.move_15_before:before {
+  top: 15vh;
+}
+.shape_3_before.move_16_before:before {
+  top: 16vh;
+}
+.shape_3_before.move_17_before:before {
+  top: 17vh;
+}
+.shape_3_before.move_18_before:before {
+  top: 18vh;
+}
+.shape_3_before.move_19_before:before {
+  top: 19vh;
+}
+.shape_3_before.move_20_before:before {
+  top: 20vh;
+}
+.shape_3_before.move_21_before:before {
+  top: 21vh;
+}
+.shape_3_before.move_22_before:before {
+  top: 22vh;
+}
+.shape_3_before.move_23_before:before {
+  top: 23vh;
+}
+.shape_3_before.move_24_before:before {
+  top: 24vh;
+}
+.shape_3_before.move_25_before:before {
+  top: 25vh;
+}
+.shape_3_before.move_26_before:before {
+  top: 26vh;
+}
+.shape_3_before.move_27_before:before {
+  top: 27vh;
+}
+.shape_3_before.move_28_before:before {
+  top: 28vh;
+}
+.shape_3_before.move_29_before:before {
+  top: 29vh;
+}
+.shape_3_before.move_30_before:before {
+  top: 30vh;
+}
+.shape_3_before.move_31_before:before {
+  top: 31vh;
+}
+.shape_3_before.move_32_before:before {
+  top: 32vh;
+}
+.shape_3_before.move_33_before:before {
+  top: 33vh;
+}
+.shape_3_before.move_34_before:before {
+  top: 34vh;
+}
+.shape_3_before.move_35_before:before {
+  top: 35vh;
+}
+.shape_3_before.move_36_before:before {
+  top: 36vh;
+}
+.shape_3_before.move_37_before:before {
+  top: 37vh;
+}
+.shape_3_before.move_38_before:before {
+  top: 38vh;
+}
+.shape_3_before.move_39_before:before {
+  top: 39vh;
+}
+.shape_3_before.move_40_before:before {
+  top: 40vh;
+}
+.shape_3_before.move_41_before:before {
+  top: 41vh;
+}
+.shape_3_before.move_42_before:before {
+  top: 42vh;
+}
+.shape_3_before.move_43_before:before {
+  top: 43vh;
+}
+.shape_3_before.move_44_before:before {
+  top: 44vh;
+}
+.shape_3_before.move_45_before:before {
+  top: 45vh;
+}
+.shape_3_before.move_46_before:before {
+  top: 46vh;
+}
+.shape_3_before.move_47_before:before {
+  top: 47vh;
+}
+.shape_3_before.move_48_before:before {
+  top: 48vh;
+}
+.shape_3_before.move_49_before:before {
+  top: 49vh;
+}
+.shape_3_before.move_50_before:before {
+  top: 50vh;
+}
+.shape_3_before.move_51_before:before {
+  top: 51vh;
+}
+.shape_3_before.move_52_before:before {
+  top: 52vh;
+}
+.shape_3_before.move_53_before:before {
+  top: 53vh;
+}
+.shape_3_before.move_54_before:before {
+  top: 54vh;
+}
+.shape_3_before.move_55_before:before {
+  top: 55vh;
+}
+.shape_3_before.move_56_before:before {
+  top: 56vh;
+}
+.shape_3_before.move_57_before:before {
+  top: 57vh;
+}
+.shape_3_before.move_58_before:before {
+  top: 58vh;
+}
+.shape_3_before.move_59_before:before {
+  top: 59vh;
+}
+.shape_3_before.move_60_before:before {
+  top: 60vh;
+}
+.shape_3_before.move_61_before:before {
+  top: 61vh;
+}
+.shape_3_before.move_62_before:before {
+  top: 62vh;
+}
+.shape_3_before.move_63_before:before {
+  top: 63vh;
+}
+.shape_3_before.move_64_before:before {
+  top: 64vh;
+}
+.shape_3_before.move_65_before:before {
+  top: 65vh;
+}
+.shape_3_before.move_66_before:before {
+  top: 66vh;
+}
+.shape_3_before.move_67_before:before {
+  top: 67vh;
+}
+.shape_3_before.move_68_before:before {
+  top: 68vh;
+}
+.shape_3_before.move_69_before:before {
+  top: 69vh;
+}
+.shape_3_before.move_70_before:before {
+  top: 70vh;
+}
+.shape_3_before.move_71_before:before {
+  top: 71vh;
+}
+.shape_3_before.move_72_before:before {
+  top: 72vh;
+}
+.shape_3_before.move_73_before:before {
+  top: 73vh;
+}
+.shape_3_before.move_74_before:before {
+  top: 74vh;
+}
+.shape_3_before.move_75_before:before {
+  top: 75vh;
+}
+.shape_3_before.move_76_before:before {
+  top: 76vh;
+}
+.shape_3_before.move_77_before:before {
+  top: 77vh;
+}
+.shape_3_before.move_78_before:before {
+  top: 78vh;
+}
+.shape_3_before.move_79_before:before {
+  top: 79vh;
+}
+.shape_3_before.move_80_before:before {
+  top: 80vh;
+}
+.shape_3_before.move_81_before:before {
+  top: 81vh;
+}
+.shape_3_before.move_82_before:before {
+  top: 82vh;
+}
+.shape_3_before.move_83_before:before {
+  top: 83vh;
+}
+.shape_3_before.move_84_before:before {
+  top: 84vh;
+}
+.shape_3_before.move_85_before:before {
+  top: 85vh;
+}
+.shape_3_before.move_86_before:before {
+  top: 86vh;
+}
+.shape_3_before.move_87_before:before {
+  top: 87vh;
+}
+.shape_3_before.move_88_before:before {
+  top: 88vh;
+}
+.shape_3_before.move_89_before:before {
+  top: 89vh;
+}
+.shape_3_before.move_90_before:before {
+  top: 90vh;
+}
+.shape_3_before.move_91_before:before {
+  top: 91vh;
+}
+.shape_3_before.move_92_before:before {
+  top: 92vh;
+}
+.shape_3_before.move_93_before:before {
+  top: 93vh;
+}
+.shape_3_before.move_94_before:before {
+  top: 94vh;
+}
+.shape_3_before.move_95_before:before {
+  top: 95vh;
+}
+.shape_3_before.move_96_before:before {
+  top: 96vh;
+}
+.shape_3_before.move_97_before:before {
+  top: 97vh;
+}
+.shape_3_before.move_98_before:before {
+  top: 98vh;
+}
+.shape_3_before.move_99_before:before {
+  top: 99vh;
+}
+
+.shape_4_before:before {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-4.svg") no-repeat;
+}
+.shape_4_before.align_left_before:before {
+  left: 0vh;
+}
+.shape_4_before.align_right_before:before {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_4_before.color_asucd_before:before {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_4_before.color_advocacy_before:before {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_4_before.color_services_1_before:before {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_4_before.color_services_2_before:before {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_4_before.color_media_1_before:before {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_4_before.color_media_2_before:before {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_4_before.color_social_1_before:before {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_4_before.color_social_2_before:before {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_4_before.move_1_before:before {
+  top: 1vh;
+}
+.shape_4_before.move_2_before:before {
+  top: 2vh;
+}
+.shape_4_before.move_3_before:before {
+  top: 3vh;
+}
+.shape_4_before.move_4_before:before {
+  top: 4vh;
+}
+.shape_4_before.move_5_before:before {
+  top: 5vh;
+}
+.shape_4_before.move_6_before:before {
+  top: 6vh;
+}
+.shape_4_before.move_7_before:before {
+  top: 7vh;
+}
+.shape_4_before.move_8_before:before {
+  top: 8vh;
+}
+.shape_4_before.move_9_before:before {
+  top: 9vh;
+}
+.shape_4_before.move_10_before:before {
+  top: 10vh;
+}
+.shape_4_before.move_11_before:before {
+  top: 11vh;
+}
+.shape_4_before.move_12_before:before {
+  top: 12vh;
+}
+.shape_4_before.move_13_before:before {
+  top: 13vh;
+}
+.shape_4_before.move_14_before:before {
+  top: 14vh;
+}
+.shape_4_before.move_15_before:before {
+  top: 15vh;
+}
+.shape_4_before.move_16_before:before {
+  top: 16vh;
+}
+.shape_4_before.move_17_before:before {
+  top: 17vh;
+}
+.shape_4_before.move_18_before:before {
+  top: 18vh;
+}
+.shape_4_before.move_19_before:before {
+  top: 19vh;
+}
+.shape_4_before.move_20_before:before {
+  top: 20vh;
+}
+.shape_4_before.move_21_before:before {
+  top: 21vh;
+}
+.shape_4_before.move_22_before:before {
+  top: 22vh;
+}
+.shape_4_before.move_23_before:before {
+  top: 23vh;
+}
+.shape_4_before.move_24_before:before {
+  top: 24vh;
+}
+.shape_4_before.move_25_before:before {
+  top: 25vh;
+}
+.shape_4_before.move_26_before:before {
+  top: 26vh;
+}
+.shape_4_before.move_27_before:before {
+  top: 27vh;
+}
+.shape_4_before.move_28_before:before {
+  top: 28vh;
+}
+.shape_4_before.move_29_before:before {
+  top: 29vh;
+}
+.shape_4_before.move_30_before:before {
+  top: 30vh;
+}
+.shape_4_before.move_31_before:before {
+  top: 31vh;
+}
+.shape_4_before.move_32_before:before {
+  top: 32vh;
+}
+.shape_4_before.move_33_before:before {
+  top: 33vh;
+}
+.shape_4_before.move_34_before:before {
+  top: 34vh;
+}
+.shape_4_before.move_35_before:before {
+  top: 35vh;
+}
+.shape_4_before.move_36_before:before {
+  top: 36vh;
+}
+.shape_4_before.move_37_before:before {
+  top: 37vh;
+}
+.shape_4_before.move_38_before:before {
+  top: 38vh;
+}
+.shape_4_before.move_39_before:before {
+  top: 39vh;
+}
+.shape_4_before.move_40_before:before {
+  top: 40vh;
+}
+.shape_4_before.move_41_before:before {
+  top: 41vh;
+}
+.shape_4_before.move_42_before:before {
+  top: 42vh;
+}
+.shape_4_before.move_43_before:before {
+  top: 43vh;
+}
+.shape_4_before.move_44_before:before {
+  top: 44vh;
+}
+.shape_4_before.move_45_before:before {
+  top: 45vh;
+}
+.shape_4_before.move_46_before:before {
+  top: 46vh;
+}
+.shape_4_before.move_47_before:before {
+  top: 47vh;
+}
+.shape_4_before.move_48_before:before {
+  top: 48vh;
+}
+.shape_4_before.move_49_before:before {
+  top: 49vh;
+}
+.shape_4_before.move_50_before:before {
+  top: 50vh;
+}
+.shape_4_before.move_51_before:before {
+  top: 51vh;
+}
+.shape_4_before.move_52_before:before {
+  top: 52vh;
+}
+.shape_4_before.move_53_before:before {
+  top: 53vh;
+}
+.shape_4_before.move_54_before:before {
+  top: 54vh;
+}
+.shape_4_before.move_55_before:before {
+  top: 55vh;
+}
+.shape_4_before.move_56_before:before {
+  top: 56vh;
+}
+.shape_4_before.move_57_before:before {
+  top: 57vh;
+}
+.shape_4_before.move_58_before:before {
+  top: 58vh;
+}
+.shape_4_before.move_59_before:before {
+  top: 59vh;
+}
+.shape_4_before.move_60_before:before {
+  top: 60vh;
+}
+.shape_4_before.move_61_before:before {
+  top: 61vh;
+}
+.shape_4_before.move_62_before:before {
+  top: 62vh;
+}
+.shape_4_before.move_63_before:before {
+  top: 63vh;
+}
+.shape_4_before.move_64_before:before {
+  top: 64vh;
+}
+.shape_4_before.move_65_before:before {
+  top: 65vh;
+}
+.shape_4_before.move_66_before:before {
+  top: 66vh;
+}
+.shape_4_before.move_67_before:before {
+  top: 67vh;
+}
+.shape_4_before.move_68_before:before {
+  top: 68vh;
+}
+.shape_4_before.move_69_before:before {
+  top: 69vh;
+}
+.shape_4_before.move_70_before:before {
+  top: 70vh;
+}
+.shape_4_before.move_71_before:before {
+  top: 71vh;
+}
+.shape_4_before.move_72_before:before {
+  top: 72vh;
+}
+.shape_4_before.move_73_before:before {
+  top: 73vh;
+}
+.shape_4_before.move_74_before:before {
+  top: 74vh;
+}
+.shape_4_before.move_75_before:before {
+  top: 75vh;
+}
+.shape_4_before.move_76_before:before {
+  top: 76vh;
+}
+.shape_4_before.move_77_before:before {
+  top: 77vh;
+}
+.shape_4_before.move_78_before:before {
+  top: 78vh;
+}
+.shape_4_before.move_79_before:before {
+  top: 79vh;
+}
+.shape_4_before.move_80_before:before {
+  top: 80vh;
+}
+.shape_4_before.move_81_before:before {
+  top: 81vh;
+}
+.shape_4_before.move_82_before:before {
+  top: 82vh;
+}
+.shape_4_before.move_83_before:before {
+  top: 83vh;
+}
+.shape_4_before.move_84_before:before {
+  top: 84vh;
+}
+.shape_4_before.move_85_before:before {
+  top: 85vh;
+}
+.shape_4_before.move_86_before:before {
+  top: 86vh;
+}
+.shape_4_before.move_87_before:before {
+  top: 87vh;
+}
+.shape_4_before.move_88_before:before {
+  top: 88vh;
+}
+.shape_4_before.move_89_before:before {
+  top: 89vh;
+}
+.shape_4_before.move_90_before:before {
+  top: 90vh;
+}
+.shape_4_before.move_91_before:before {
+  top: 91vh;
+}
+.shape_4_before.move_92_before:before {
+  top: 92vh;
+}
+.shape_4_before.move_93_before:before {
+  top: 93vh;
+}
+.shape_4_before.move_94_before:before {
+  top: 94vh;
+}
+.shape_4_before.move_95_before:before {
+  top: 95vh;
+}
+.shape_4_before.move_96_before:before {
+  top: 96vh;
+}
+.shape_4_before.move_97_before:before {
+  top: 97vh;
+}
+.shape_4_before.move_98_before:before {
+  top: 98vh;
+}
+.shape_4_before.move_99_before:before {
+  top: 99vh;
+}
+
+.shape_1_after:after {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-1.svg") no-repeat;
+}
+.shape_1_after.align_left_after:after {
+  left: 0vh;
+}
+.shape_1_after.align_right_after:after {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_1_after.color_asucd_after:after {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_1_after.color_advocacy_after:after {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_1_after.color_services_1_after:after {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_1_after.color_services_2_after:after {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_1_after.color_media_1_after:after {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_1_after.color_media_2_after:after {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_1_after.color_social_1_after:after {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_1_after.color_social_2_after:after {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_1_after.move_1_after:after {
+  top: 1vh;
+}
+.shape_1_after.move_2_after:after {
+  top: 2vh;
+}
+.shape_1_after.move_3_after:after {
+  top: 3vh;
+}
+.shape_1_after.move_4_after:after {
+  top: 4vh;
+}
+.shape_1_after.move_5_after:after {
+  top: 5vh;
+}
+.shape_1_after.move_6_after:after {
+  top: 6vh;
+}
+.shape_1_after.move_7_after:after {
+  top: 7vh;
+}
+.shape_1_after.move_8_after:after {
+  top: 8vh;
+}
+.shape_1_after.move_9_after:after {
+  top: 9vh;
+}
+.shape_1_after.move_10_after:after {
+  top: 10vh;
+}
+.shape_1_after.move_11_after:after {
+  top: 11vh;
+}
+.shape_1_after.move_12_after:after {
+  top: 12vh;
+}
+.shape_1_after.move_13_after:after {
+  top: 13vh;
+}
+.shape_1_after.move_14_after:after {
+  top: 14vh;
+}
+.shape_1_after.move_15_after:after {
+  top: 15vh;
+}
+.shape_1_after.move_16_after:after {
+  top: 16vh;
+}
+.shape_1_after.move_17_after:after {
+  top: 17vh;
+}
+.shape_1_after.move_18_after:after {
+  top: 18vh;
+}
+.shape_1_after.move_19_after:after {
+  top: 19vh;
+}
+.shape_1_after.move_20_after:after {
+  top: 20vh;
+}
+.shape_1_after.move_21_after:after {
+  top: 21vh;
+}
+.shape_1_after.move_22_after:after {
+  top: 22vh;
+}
+.shape_1_after.move_23_after:after {
+  top: 23vh;
+}
+.shape_1_after.move_24_after:after {
+  top: 24vh;
+}
+.shape_1_after.move_25_after:after {
+  top: 25vh;
+}
+.shape_1_after.move_26_after:after {
+  top: 26vh;
+}
+.shape_1_after.move_27_after:after {
+  top: 27vh;
+}
+.shape_1_after.move_28_after:after {
+  top: 28vh;
+}
+.shape_1_after.move_29_after:after {
+  top: 29vh;
+}
+.shape_1_after.move_30_after:after {
+  top: 30vh;
+}
+.shape_1_after.move_31_after:after {
+  top: 31vh;
+}
+.shape_1_after.move_32_after:after {
+  top: 32vh;
+}
+.shape_1_after.move_33_after:after {
+  top: 33vh;
+}
+.shape_1_after.move_34_after:after {
+  top: 34vh;
+}
+.shape_1_after.move_35_after:after {
+  top: 35vh;
+}
+.shape_1_after.move_36_after:after {
+  top: 36vh;
+}
+.shape_1_after.move_37_after:after {
+  top: 37vh;
+}
+.shape_1_after.move_38_after:after {
+  top: 38vh;
+}
+.shape_1_after.move_39_after:after {
+  top: 39vh;
+}
+.shape_1_after.move_40_after:after {
+  top: 40vh;
+}
+.shape_1_after.move_41_after:after {
+  top: 41vh;
+}
+.shape_1_after.move_42_after:after {
+  top: 42vh;
+}
+.shape_1_after.move_43_after:after {
+  top: 43vh;
+}
+.shape_1_after.move_44_after:after {
+  top: 44vh;
+}
+.shape_1_after.move_45_after:after {
+  top: 45vh;
+}
+.shape_1_after.move_46_after:after {
+  top: 46vh;
+}
+.shape_1_after.move_47_after:after {
+  top: 47vh;
+}
+.shape_1_after.move_48_after:after {
+  top: 48vh;
+}
+.shape_1_after.move_49_after:after {
+  top: 49vh;
+}
+.shape_1_after.move_50_after:after {
+  top: 50vh;
+}
+.shape_1_after.move_51_after:after {
+  top: 51vh;
+}
+.shape_1_after.move_52_after:after {
+  top: 52vh;
+}
+.shape_1_after.move_53_after:after {
+  top: 53vh;
+}
+.shape_1_after.move_54_after:after {
+  top: 54vh;
+}
+.shape_1_after.move_55_after:after {
+  top: 55vh;
+}
+.shape_1_after.move_56_after:after {
+  top: 56vh;
+}
+.shape_1_after.move_57_after:after {
+  top: 57vh;
+}
+.shape_1_after.move_58_after:after {
+  top: 58vh;
+}
+.shape_1_after.move_59_after:after {
+  top: 59vh;
+}
+.shape_1_after.move_60_after:after {
+  top: 60vh;
+}
+.shape_1_after.move_61_after:after {
+  top: 61vh;
+}
+.shape_1_after.move_62_after:after {
+  top: 62vh;
+}
+.shape_1_after.move_63_after:after {
+  top: 63vh;
+}
+.shape_1_after.move_64_after:after {
+  top: 64vh;
+}
+.shape_1_after.move_65_after:after {
+  top: 65vh;
+}
+.shape_1_after.move_66_after:after {
+  top: 66vh;
+}
+.shape_1_after.move_67_after:after {
+  top: 67vh;
+}
+.shape_1_after.move_68_after:after {
+  top: 68vh;
+}
+.shape_1_after.move_69_after:after {
+  top: 69vh;
+}
+.shape_1_after.move_70_after:after {
+  top: 70vh;
+}
+.shape_1_after.move_71_after:after {
+  top: 71vh;
+}
+.shape_1_after.move_72_after:after {
+  top: 72vh;
+}
+.shape_1_after.move_73_after:after {
+  top: 73vh;
+}
+.shape_1_after.move_74_after:after {
+  top: 74vh;
+}
+.shape_1_after.move_75_after:after {
+  top: 75vh;
+}
+.shape_1_after.move_76_after:after {
+  top: 76vh;
+}
+.shape_1_after.move_77_after:after {
+  top: 77vh;
+}
+.shape_1_after.move_78_after:after {
+  top: 78vh;
+}
+.shape_1_after.move_79_after:after {
+  top: 79vh;
+}
+.shape_1_after.move_80_after:after {
+  top: 80vh;
+}
+.shape_1_after.move_81_after:after {
+  top: 81vh;
+}
+.shape_1_after.move_82_after:after {
+  top: 82vh;
+}
+.shape_1_after.move_83_after:after {
+  top: 83vh;
+}
+.shape_1_after.move_84_after:after {
+  top: 84vh;
+}
+.shape_1_after.move_85_after:after {
+  top: 85vh;
+}
+.shape_1_after.move_86_after:after {
+  top: 86vh;
+}
+.shape_1_after.move_87_after:after {
+  top: 87vh;
+}
+.shape_1_after.move_88_after:after {
+  top: 88vh;
+}
+.shape_1_after.move_89_after:after {
+  top: 89vh;
+}
+.shape_1_after.move_90_after:after {
+  top: 90vh;
+}
+.shape_1_after.move_91_after:after {
+  top: 91vh;
+}
+.shape_1_after.move_92_after:after {
+  top: 92vh;
+}
+.shape_1_after.move_93_after:after {
+  top: 93vh;
+}
+.shape_1_after.move_94_after:after {
+  top: 94vh;
+}
+.shape_1_after.move_95_after:after {
+  top: 95vh;
+}
+.shape_1_after.move_96_after:after {
+  top: 96vh;
+}
+.shape_1_after.move_97_after:after {
+  top: 97vh;
+}
+.shape_1_after.move_98_after:after {
+  top: 98vh;
+}
+.shape_1_after.move_99_after:after {
+  top: 99vh;
+}
+
+.shape_2_after:after {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-2.svg") no-repeat;
+}
+.shape_2_after.align_left_after:after {
+  left: 0vh;
+}
+.shape_2_after.align_right_after:after {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_2_after.color_asucd_after:after {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_2_after.color_advocacy_after:after {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_2_after.color_services_1_after:after {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_2_after.color_services_2_after:after {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_2_after.color_media_1_after:after {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_2_after.color_media_2_after:after {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_2_after.color_social_1_after:after {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_2_after.color_social_2_after:after {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_2_after.move_1_after:after {
+  top: 1vh;
+}
+.shape_2_after.move_2_after:after {
+  top: 2vh;
+}
+.shape_2_after.move_3_after:after {
+  top: 3vh;
+}
+.shape_2_after.move_4_after:after {
+  top: 4vh;
+}
+.shape_2_after.move_5_after:after {
+  top: 5vh;
+}
+.shape_2_after.move_6_after:after {
+  top: 6vh;
+}
+.shape_2_after.move_7_after:after {
+  top: 7vh;
+}
+.shape_2_after.move_8_after:after {
+  top: 8vh;
+}
+.shape_2_after.move_9_after:after {
+  top: 9vh;
+}
+.shape_2_after.move_10_after:after {
+  top: 10vh;
+}
+.shape_2_after.move_11_after:after {
+  top: 11vh;
+}
+.shape_2_after.move_12_after:after {
+  top: 12vh;
+}
+.shape_2_after.move_13_after:after {
+  top: 13vh;
+}
+.shape_2_after.move_14_after:after {
+  top: 14vh;
+}
+.shape_2_after.move_15_after:after {
+  top: 15vh;
+}
+.shape_2_after.move_16_after:after {
+  top: 16vh;
+}
+.shape_2_after.move_17_after:after {
+  top: 17vh;
+}
+.shape_2_after.move_18_after:after {
+  top: 18vh;
+}
+.shape_2_after.move_19_after:after {
+  top: 19vh;
+}
+.shape_2_after.move_20_after:after {
+  top: 20vh;
+}
+.shape_2_after.move_21_after:after {
+  top: 21vh;
+}
+.shape_2_after.move_22_after:after {
+  top: 22vh;
+}
+.shape_2_after.move_23_after:after {
+  top: 23vh;
+}
+.shape_2_after.move_24_after:after {
+  top: 24vh;
+}
+.shape_2_after.move_25_after:after {
+  top: 25vh;
+}
+.shape_2_after.move_26_after:after {
+  top: 26vh;
+}
+.shape_2_after.move_27_after:after {
+  top: 27vh;
+}
+.shape_2_after.move_28_after:after {
+  top: 28vh;
+}
+.shape_2_after.move_29_after:after {
+  top: 29vh;
+}
+.shape_2_after.move_30_after:after {
+  top: 30vh;
+}
+.shape_2_after.move_31_after:after {
+  top: 31vh;
+}
+.shape_2_after.move_32_after:after {
+  top: 32vh;
+}
+.shape_2_after.move_33_after:after {
+  top: 33vh;
+}
+.shape_2_after.move_34_after:after {
+  top: 34vh;
+}
+.shape_2_after.move_35_after:after {
+  top: 35vh;
+}
+.shape_2_after.move_36_after:after {
+  top: 36vh;
+}
+.shape_2_after.move_37_after:after {
+  top: 37vh;
+}
+.shape_2_after.move_38_after:after {
+  top: 38vh;
+}
+.shape_2_after.move_39_after:after {
+  top: 39vh;
+}
+.shape_2_after.move_40_after:after {
+  top: 40vh;
+}
+.shape_2_after.move_41_after:after {
+  top: 41vh;
+}
+.shape_2_after.move_42_after:after {
+  top: 42vh;
+}
+.shape_2_after.move_43_after:after {
+  top: 43vh;
+}
+.shape_2_after.move_44_after:after {
+  top: 44vh;
+}
+.shape_2_after.move_45_after:after {
+  top: 45vh;
+}
+.shape_2_after.move_46_after:after {
+  top: 46vh;
+}
+.shape_2_after.move_47_after:after {
+  top: 47vh;
+}
+.shape_2_after.move_48_after:after {
+  top: 48vh;
+}
+.shape_2_after.move_49_after:after {
+  top: 49vh;
+}
+.shape_2_after.move_50_after:after {
+  top: 50vh;
+}
+.shape_2_after.move_51_after:after {
+  top: 51vh;
+}
+.shape_2_after.move_52_after:after {
+  top: 52vh;
+}
+.shape_2_after.move_53_after:after {
+  top: 53vh;
+}
+.shape_2_after.move_54_after:after {
+  top: 54vh;
+}
+.shape_2_after.move_55_after:after {
+  top: 55vh;
+}
+.shape_2_after.move_56_after:after {
+  top: 56vh;
+}
+.shape_2_after.move_57_after:after {
+  top: 57vh;
+}
+.shape_2_after.move_58_after:after {
+  top: 58vh;
+}
+.shape_2_after.move_59_after:after {
+  top: 59vh;
+}
+.shape_2_after.move_60_after:after {
+  top: 60vh;
+}
+.shape_2_after.move_61_after:after {
+  top: 61vh;
+}
+.shape_2_after.move_62_after:after {
+  top: 62vh;
+}
+.shape_2_after.move_63_after:after {
+  top: 63vh;
+}
+.shape_2_after.move_64_after:after {
+  top: 64vh;
+}
+.shape_2_after.move_65_after:after {
+  top: 65vh;
+}
+.shape_2_after.move_66_after:after {
+  top: 66vh;
+}
+.shape_2_after.move_67_after:after {
+  top: 67vh;
+}
+.shape_2_after.move_68_after:after {
+  top: 68vh;
+}
+.shape_2_after.move_69_after:after {
+  top: 69vh;
+}
+.shape_2_after.move_70_after:after {
+  top: 70vh;
+}
+.shape_2_after.move_71_after:after {
+  top: 71vh;
+}
+.shape_2_after.move_72_after:after {
+  top: 72vh;
+}
+.shape_2_after.move_73_after:after {
+  top: 73vh;
+}
+.shape_2_after.move_74_after:after {
+  top: 74vh;
+}
+.shape_2_after.move_75_after:after {
+  top: 75vh;
+}
+.shape_2_after.move_76_after:after {
+  top: 76vh;
+}
+.shape_2_after.move_77_after:after {
+  top: 77vh;
+}
+.shape_2_after.move_78_after:after {
+  top: 78vh;
+}
+.shape_2_after.move_79_after:after {
+  top: 79vh;
+}
+.shape_2_after.move_80_after:after {
+  top: 80vh;
+}
+.shape_2_after.move_81_after:after {
+  top: 81vh;
+}
+.shape_2_after.move_82_after:after {
+  top: 82vh;
+}
+.shape_2_after.move_83_after:after {
+  top: 83vh;
+}
+.shape_2_after.move_84_after:after {
+  top: 84vh;
+}
+.shape_2_after.move_85_after:after {
+  top: 85vh;
+}
+.shape_2_after.move_86_after:after {
+  top: 86vh;
+}
+.shape_2_after.move_87_after:after {
+  top: 87vh;
+}
+.shape_2_after.move_88_after:after {
+  top: 88vh;
+}
+.shape_2_after.move_89_after:after {
+  top: 89vh;
+}
+.shape_2_after.move_90_after:after {
+  top: 90vh;
+}
+.shape_2_after.move_91_after:after {
+  top: 91vh;
+}
+.shape_2_after.move_92_after:after {
+  top: 92vh;
+}
+.shape_2_after.move_93_after:after {
+  top: 93vh;
+}
+.shape_2_after.move_94_after:after {
+  top: 94vh;
+}
+.shape_2_after.move_95_after:after {
+  top: 95vh;
+}
+.shape_2_after.move_96_after:after {
+  top: 96vh;
+}
+.shape_2_after.move_97_after:after {
+  top: 97vh;
+}
+.shape_2_after.move_98_after:after {
+  top: 98vh;
+}
+.shape_2_after.move_99_after:after {
+  top: 99vh;
+}
+
+.shape_3_after:after {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-3.svg") no-repeat;
+}
+.shape_3_after.align_left_after:after {
+  left: 0vh;
+}
+.shape_3_after.align_right_after:after {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_3_after.color_asucd_after:after {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_3_after.color_advocacy_after:after {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_3_after.color_services_1_after:after {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_3_after.color_services_2_after:after {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_3_after.color_media_1_after:after {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_3_after.color_media_2_after:after {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_3_after.color_social_1_after:after {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_3_after.color_social_2_after:after {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_3_after.move_1_after:after {
+  top: 1vh;
+}
+.shape_3_after.move_2_after:after {
+  top: 2vh;
+}
+.shape_3_after.move_3_after:after {
+  top: 3vh;
+}
+.shape_3_after.move_4_after:after {
+  top: 4vh;
+}
+.shape_3_after.move_5_after:after {
+  top: 5vh;
+}
+.shape_3_after.move_6_after:after {
+  top: 6vh;
+}
+.shape_3_after.move_7_after:after {
+  top: 7vh;
+}
+.shape_3_after.move_8_after:after {
+  top: 8vh;
+}
+.shape_3_after.move_9_after:after {
+  top: 9vh;
+}
+.shape_3_after.move_10_after:after {
+  top: 10vh;
+}
+.shape_3_after.move_11_after:after {
+  top: 11vh;
+}
+.shape_3_after.move_12_after:after {
+  top: 12vh;
+}
+.shape_3_after.move_13_after:after {
+  top: 13vh;
+}
+.shape_3_after.move_14_after:after {
+  top: 14vh;
+}
+.shape_3_after.move_15_after:after {
+  top: 15vh;
+}
+.shape_3_after.move_16_after:after {
+  top: 16vh;
+}
+.shape_3_after.move_17_after:after {
+  top: 17vh;
+}
+.shape_3_after.move_18_after:after {
+  top: 18vh;
+}
+.shape_3_after.move_19_after:after {
+  top: 19vh;
+}
+.shape_3_after.move_20_after:after {
+  top: 20vh;
+}
+.shape_3_after.move_21_after:after {
+  top: 21vh;
+}
+.shape_3_after.move_22_after:after {
+  top: 22vh;
+}
+.shape_3_after.move_23_after:after {
+  top: 23vh;
+}
+.shape_3_after.move_24_after:after {
+  top: 24vh;
+}
+.shape_3_after.move_25_after:after {
+  top: 25vh;
+}
+.shape_3_after.move_26_after:after {
+  top: 26vh;
+}
+.shape_3_after.move_27_after:after {
+  top: 27vh;
+}
+.shape_3_after.move_28_after:after {
+  top: 28vh;
+}
+.shape_3_after.move_29_after:after {
+  top: 29vh;
+}
+.shape_3_after.move_30_after:after {
+  top: 30vh;
+}
+.shape_3_after.move_31_after:after {
+  top: 31vh;
+}
+.shape_3_after.move_32_after:after {
+  top: 32vh;
+}
+.shape_3_after.move_33_after:after {
+  top: 33vh;
+}
+.shape_3_after.move_34_after:after {
+  top: 34vh;
+}
+.shape_3_after.move_35_after:after {
+  top: 35vh;
+}
+.shape_3_after.move_36_after:after {
+  top: 36vh;
+}
+.shape_3_after.move_37_after:after {
+  top: 37vh;
+}
+.shape_3_after.move_38_after:after {
+  top: 38vh;
+}
+.shape_3_after.move_39_after:after {
+  top: 39vh;
+}
+.shape_3_after.move_40_after:after {
+  top: 40vh;
+}
+.shape_3_after.move_41_after:after {
+  top: 41vh;
+}
+.shape_3_after.move_42_after:after {
+  top: 42vh;
+}
+.shape_3_after.move_43_after:after {
+  top: 43vh;
+}
+.shape_3_after.move_44_after:after {
+  top: 44vh;
+}
+.shape_3_after.move_45_after:after {
+  top: 45vh;
+}
+.shape_3_after.move_46_after:after {
+  top: 46vh;
+}
+.shape_3_after.move_47_after:after {
+  top: 47vh;
+}
+.shape_3_after.move_48_after:after {
+  top: 48vh;
+}
+.shape_3_after.move_49_after:after {
+  top: 49vh;
+}
+.shape_3_after.move_50_after:after {
+  top: 50vh;
+}
+.shape_3_after.move_51_after:after {
+  top: 51vh;
+}
+.shape_3_after.move_52_after:after {
+  top: 52vh;
+}
+.shape_3_after.move_53_after:after {
+  top: 53vh;
+}
+.shape_3_after.move_54_after:after {
+  top: 54vh;
+}
+.shape_3_after.move_55_after:after {
+  top: 55vh;
+}
+.shape_3_after.move_56_after:after {
+  top: 56vh;
+}
+.shape_3_after.move_57_after:after {
+  top: 57vh;
+}
+.shape_3_after.move_58_after:after {
+  top: 58vh;
+}
+.shape_3_after.move_59_after:after {
+  top: 59vh;
+}
+.shape_3_after.move_60_after:after {
+  top: 60vh;
+}
+.shape_3_after.move_61_after:after {
+  top: 61vh;
+}
+.shape_3_after.move_62_after:after {
+  top: 62vh;
+}
+.shape_3_after.move_63_after:after {
+  top: 63vh;
+}
+.shape_3_after.move_64_after:after {
+  top: 64vh;
+}
+.shape_3_after.move_65_after:after {
+  top: 65vh;
+}
+.shape_3_after.move_66_after:after {
+  top: 66vh;
+}
+.shape_3_after.move_67_after:after {
+  top: 67vh;
+}
+.shape_3_after.move_68_after:after {
+  top: 68vh;
+}
+.shape_3_after.move_69_after:after {
+  top: 69vh;
+}
+.shape_3_after.move_70_after:after {
+  top: 70vh;
+}
+.shape_3_after.move_71_after:after {
+  top: 71vh;
+}
+.shape_3_after.move_72_after:after {
+  top: 72vh;
+}
+.shape_3_after.move_73_after:after {
+  top: 73vh;
+}
+.shape_3_after.move_74_after:after {
+  top: 74vh;
+}
+.shape_3_after.move_75_after:after {
+  top: 75vh;
+}
+.shape_3_after.move_76_after:after {
+  top: 76vh;
+}
+.shape_3_after.move_77_after:after {
+  top: 77vh;
+}
+.shape_3_after.move_78_after:after {
+  top: 78vh;
+}
+.shape_3_after.move_79_after:after {
+  top: 79vh;
+}
+.shape_3_after.move_80_after:after {
+  top: 80vh;
+}
+.shape_3_after.move_81_after:after {
+  top: 81vh;
+}
+.shape_3_after.move_82_after:after {
+  top: 82vh;
+}
+.shape_3_after.move_83_after:after {
+  top: 83vh;
+}
+.shape_3_after.move_84_after:after {
+  top: 84vh;
+}
+.shape_3_after.move_85_after:after {
+  top: 85vh;
+}
+.shape_3_after.move_86_after:after {
+  top: 86vh;
+}
+.shape_3_after.move_87_after:after {
+  top: 87vh;
+}
+.shape_3_after.move_88_after:after {
+  top: 88vh;
+}
+.shape_3_after.move_89_after:after {
+  top: 89vh;
+}
+.shape_3_after.move_90_after:after {
+  top: 90vh;
+}
+.shape_3_after.move_91_after:after {
+  top: 91vh;
+}
+.shape_3_after.move_92_after:after {
+  top: 92vh;
+}
+.shape_3_after.move_93_after:after {
+  top: 93vh;
+}
+.shape_3_after.move_94_after:after {
+  top: 94vh;
+}
+.shape_3_after.move_95_after:after {
+  top: 95vh;
+}
+.shape_3_after.move_96_after:after {
+  top: 96vh;
+}
+.shape_3_after.move_97_after:after {
+  top: 97vh;
+}
+.shape_3_after.move_98_after:after {
+  top: 98vh;
+}
+.shape_3_after.move_99_after:after {
+  top: 99vh;
+}
+
+.shape_4_after:after {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: url("https://asucd.hsu.dev/wp-content/themes/asucd-divi-child/assets/img/asucd-shapes-4.svg") no-repeat;
+}
+.shape_4_after.align_left_after:after {
+  left: 0vh;
+}
+.shape_4_after.align_right_after:after {
+  right: 0vh;
+  transform: scale(-1, 1);
+}
+.shape_4_after.color_asucd_after:after {
+  filter: brightness(0) invert(93%) sepia(8%) saturate(7499%) hue-rotate(322deg) brightness(106%) contrast(98%);
+}
+.shape_4_after.color_advocacy_after:after {
+  filter: brightness(0) invert(13%) sepia(65%) saturate(1078%) hue-rotate(192deg) brightness(96%) contrast(97%);
+}
+.shape_4_after.color_services_1_after:after {
+  filter: brightness(0) invert(90%) sepia(6%) saturate(2010%) hue-rotate(170deg) brightness(98%) contrast(93%);
+}
+.shape_4_after.color_services_2_after:after {
+  filter: brightness(0) invert(79%) sepia(16%) saturate(761%) hue-rotate(163deg) brightness(92%) contrast(94%);
+}
+.shape_4_after.color_media_1_after:after {
+  filter: brightness(0) invert(49%) sepia(18%) saturate(1751%) hue-rotate(313deg) brightness(103%) contrast(90%);
+}
+.shape_4_after.color_media_2_after:after {
+  filter: brightness(0) invert(84%) sepia(14%) saturate(359%) hue-rotate(319deg) brightness(104%) contrast(95%);
+}
+.shape_4_after.color_social_1_after:after {
+  filter: brightness(0) invert(37%) sepia(98%) saturate(597%) hue-rotate(318deg) brightness(125%) contrast(90%);
+}
+.shape_4_after.color_social_2_after:after {
+  filter: brightness(0) invert(87%) sepia(18%) saturate(362%) hue-rotate(121deg) brightness(95%) contrast(90%);
+}
+.shape_4_after.move_1_after:after {
+  top: 1vh;
+}
+.shape_4_after.move_2_after:after {
+  top: 2vh;
+}
+.shape_4_after.move_3_after:after {
+  top: 3vh;
+}
+.shape_4_after.move_4_after:after {
+  top: 4vh;
+}
+.shape_4_after.move_5_after:after {
+  top: 5vh;
+}
+.shape_4_after.move_6_after:after {
+  top: 6vh;
+}
+.shape_4_after.move_7_after:after {
+  top: 7vh;
+}
+.shape_4_after.move_8_after:after {
+  top: 8vh;
+}
+.shape_4_after.move_9_after:after {
+  top: 9vh;
+}
+.shape_4_after.move_10_after:after {
+  top: 10vh;
+}
+.shape_4_after.move_11_after:after {
+  top: 11vh;
+}
+.shape_4_after.move_12_after:after {
+  top: 12vh;
+}
+.shape_4_after.move_13_after:after {
+  top: 13vh;
+}
+.shape_4_after.move_14_after:after {
+  top: 14vh;
+}
+.shape_4_after.move_15_after:after {
+  top: 15vh;
+}
+.shape_4_after.move_16_after:after {
+  top: 16vh;
+}
+.shape_4_after.move_17_after:after {
+  top: 17vh;
+}
+.shape_4_after.move_18_after:after {
+  top: 18vh;
+}
+.shape_4_after.move_19_after:after {
+  top: 19vh;
+}
+.shape_4_after.move_20_after:after {
+  top: 20vh;
+}
+.shape_4_after.move_21_after:after {
+  top: 21vh;
+}
+.shape_4_after.move_22_after:after {
+  top: 22vh;
+}
+.shape_4_after.move_23_after:after {
+  top: 23vh;
+}
+.shape_4_after.move_24_after:after {
+  top: 24vh;
+}
+.shape_4_after.move_25_after:after {
+  top: 25vh;
+}
+.shape_4_after.move_26_after:after {
+  top: 26vh;
+}
+.shape_4_after.move_27_after:after {
+  top: 27vh;
+}
+.shape_4_after.move_28_after:after {
+  top: 28vh;
+}
+.shape_4_after.move_29_after:after {
+  top: 29vh;
+}
+.shape_4_after.move_30_after:after {
+  top: 30vh;
+}
+.shape_4_after.move_31_after:after {
+  top: 31vh;
+}
+.shape_4_after.move_32_after:after {
+  top: 32vh;
+}
+.shape_4_after.move_33_after:after {
+  top: 33vh;
+}
+.shape_4_after.move_34_after:after {
+  top: 34vh;
+}
+.shape_4_after.move_35_after:after {
+  top: 35vh;
+}
+.shape_4_after.move_36_after:after {
+  top: 36vh;
+}
+.shape_4_after.move_37_after:after {
+  top: 37vh;
+}
+.shape_4_after.move_38_after:after {
+  top: 38vh;
+}
+.shape_4_after.move_39_after:after {
+  top: 39vh;
+}
+.shape_4_after.move_40_after:after {
+  top: 40vh;
+}
+.shape_4_after.move_41_after:after {
+  top: 41vh;
+}
+.shape_4_after.move_42_after:after {
+  top: 42vh;
+}
+.shape_4_after.move_43_after:after {
+  top: 43vh;
+}
+.shape_4_after.move_44_after:after {
+  top: 44vh;
+}
+.shape_4_after.move_45_after:after {
+  top: 45vh;
+}
+.shape_4_after.move_46_after:after {
+  top: 46vh;
+}
+.shape_4_after.move_47_after:after {
+  top: 47vh;
+}
+.shape_4_after.move_48_after:after {
+  top: 48vh;
+}
+.shape_4_after.move_49_after:after {
+  top: 49vh;
+}
+.shape_4_after.move_50_after:after {
+  top: 50vh;
+}
+.shape_4_after.move_51_after:after {
+  top: 51vh;
+}
+.shape_4_after.move_52_after:after {
+  top: 52vh;
+}
+.shape_4_after.move_53_after:after {
+  top: 53vh;
+}
+.shape_4_after.move_54_after:after {
+  top: 54vh;
+}
+.shape_4_after.move_55_after:after {
+  top: 55vh;
+}
+.shape_4_after.move_56_after:after {
+  top: 56vh;
+}
+.shape_4_after.move_57_after:after {
+  top: 57vh;
+}
+.shape_4_after.move_58_after:after {
+  top: 58vh;
+}
+.shape_4_after.move_59_after:after {
+  top: 59vh;
+}
+.shape_4_after.move_60_after:after {
+  top: 60vh;
+}
+.shape_4_after.move_61_after:after {
+  top: 61vh;
+}
+.shape_4_after.move_62_after:after {
+  top: 62vh;
+}
+.shape_4_after.move_63_after:after {
+  top: 63vh;
+}
+.shape_4_after.move_64_after:after {
+  top: 64vh;
+}
+.shape_4_after.move_65_after:after {
+  top: 65vh;
+}
+.shape_4_after.move_66_after:after {
+  top: 66vh;
+}
+.shape_4_after.move_67_after:after {
+  top: 67vh;
+}
+.shape_4_after.move_68_after:after {
+  top: 68vh;
+}
+.shape_4_after.move_69_after:after {
+  top: 69vh;
+}
+.shape_4_after.move_70_after:after {
+  top: 70vh;
+}
+.shape_4_after.move_71_after:after {
+  top: 71vh;
+}
+.shape_4_after.move_72_after:after {
+  top: 72vh;
+}
+.shape_4_after.move_73_after:after {
+  top: 73vh;
+}
+.shape_4_after.move_74_after:after {
+  top: 74vh;
+}
+.shape_4_after.move_75_after:after {
+  top: 75vh;
+}
+.shape_4_after.move_76_after:after {
+  top: 76vh;
+}
+.shape_4_after.move_77_after:after {
+  top: 77vh;
+}
+.shape_4_after.move_78_after:after {
+  top: 78vh;
+}
+.shape_4_after.move_79_after:after {
+  top: 79vh;
+}
+.shape_4_after.move_80_after:after {
+  top: 80vh;
+}
+.shape_4_after.move_81_after:after {
+  top: 81vh;
+}
+.shape_4_after.move_82_after:after {
+  top: 82vh;
+}
+.shape_4_after.move_83_after:after {
+  top: 83vh;
+}
+.shape_4_after.move_84_after:after {
+  top: 84vh;
+}
+.shape_4_after.move_85_after:after {
+  top: 85vh;
+}
+.shape_4_after.move_86_after:after {
+  top: 86vh;
+}
+.shape_4_after.move_87_after:after {
+  top: 87vh;
+}
+.shape_4_after.move_88_after:after {
+  top: 88vh;
+}
+.shape_4_after.move_89_after:after {
+  top: 89vh;
+}
+.shape_4_after.move_90_after:after {
+  top: 90vh;
+}
+.shape_4_after.move_91_after:after {
+  top: 91vh;
+}
+.shape_4_after.move_92_after:after {
+  top: 92vh;
+}
+.shape_4_after.move_93_after:after {
+  top: 93vh;
+}
+.shape_4_after.move_94_after:after {
+  top: 94vh;
+}
+.shape_4_after.move_95_after:after {
+  top: 95vh;
+}
+.shape_4_after.move_96_after:after {
+  top: 96vh;
+}
+.shape_4_after.move_97_after:after {
+  top: 97vh;
+}
+.shape_4_after.move_98_after:after {
+  top: 98vh;
+}
+.shape_4_after.move_99_after:after {
+  top: 99vh;
+}
+
+/*# sourceMappingURL=shapes.css.map */
+
